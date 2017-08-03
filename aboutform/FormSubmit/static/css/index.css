@@ -1,0 +1,116 @@
+/*body{
+	margin: 0;
+	padding: 0;
+
+}*/
+/*index css*/
+
+*{margin:0 auto;padding: auto;}
+
+.menu_bar{
+	position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+}
+
+.login{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 30px;
+    margin: 10% auto;
+}
+
+.login>span{
+	width: 2em;
+    margin: 15px auto;
+    font-size: 3em;
+    color: sandybrown;
+    display: block;
+}
+
+.user{
+    display: block;
+    width: 300px;
+    height: 42px;
+    margin: 32px auto;
+    /* margin-top: 32px; */
+    border-radius: 5px;
+    background-color: beige;
+    outline: none;
+}
+.confirm{
+    margin: 27px 0 0 37%;
+}
+
+#login{
+	width: 139px;
+    height: 45px;
+    border-radius: 12px;
+    color: white;
+    background-color: blanchedalmond;
+}
+
+.other{
+	margin: 10px;
+}
+
+/*regist css*/
+
+.menu_bar a{
+	display: inline-block;
+	background-color: pink;
+	padding:1em 1em;
+	margin-left: 1em;
+	text-decoration: none;
+	color: white;
+	font-size: 1em;
+}
+.container{
+	position: relative;
+	top: 50px;
+}
+
+.title{
+	margin: 5% auto;
+    background-color: #8BC34A;
+    width: 50%;
+    height: 10px;
+}
+.title span{
+	display:block;
+	width: 2em;
+	height: 1em;
+	font-size: 20px;
+	padding: 15px;
+	background-color: #8BC34A;
+	border: solid white 2px;
+	position: absolute;
+	left: 50%;
+	margin-left: -10px;
+	margin-top:-1em;
+}
+.regist_bar{
+	width: 250px;
+	margin: 0 auto;
+	background-color: beige;
+    opacity: 0.8;
+}
+.regist_input{
+	margin: 0 auto;
+}
+.regist_input label{
+	display: block;
+	margin-left: 25px;
+	color: white;
+	font-size: 20px;
+}
+.input{
+	height: 30px;
+	width: 150px;
+	margin-left: 50px;
+}
