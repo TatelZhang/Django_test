@@ -20,6 +20,6 @@ from FormSubmit import views as form_views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', form_views.index),
-    url(r'^add/', form_views.add, name='add'),
+    # url(r'^add/', form_views.add, name='add'),
 
 ]
